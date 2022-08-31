@@ -15,5 +15,10 @@
         public void Loan(double amount) {
             if (amount <= LoanLimit) Balance += amount;
         }
+
+        public override void Withdraw(double amount) {
+            base.Withdraw(amount);
+            Balance -= 5.0;
+        }
     }
 }
