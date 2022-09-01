@@ -2,7 +2,7 @@
 using System.Runtime.Remoting.Messaging;
 
 namespace Accounts.Entities {
-    public class SavingsAccount : Account {
+    public sealed class SavingsAccount : Account {
         // Attributes
         public double InterestRate { get; set; }
 

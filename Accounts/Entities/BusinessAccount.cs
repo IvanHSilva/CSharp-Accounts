@@ -1,5 +1,5 @@
 ﻿namespace Accounts.Entities {
-    public class BusinessAccount : Account {
+    public sealed class BusinessAccount : Account {
         // Attributes
         public double LoanLimit { get; set; }
 

@@ -1,5 +1,5 @@
 ﻿namespace Accounts.Entities {
-    public class Account {
+    public abstract class Account {
         // Attributes
         public int Number { get; private set; }
         public string Holder { get; private set; }
